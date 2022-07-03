@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_balkon_balkons",
+  "info": {
+    "displayName": "balkon"
+  },
+  "options": {},
+  "attributes": {
+    "kiedy": {
+      "type": "enumeration",
+      "enum": [
+        "styczeń",
+        "luty",
+        "marzec",
+        "kwiecień",
+        "maj",
+        "czerwiec",
+        "lipiec",
+        "sierpień",
+        "wrzesień",
+        "październik",
+        "listopad",
+        "grudzień"
+      ]
+    },
+    "prefix": {
+      "type": "enumeration",
+      "enum": [
+        "początek",
+        "pierwsza połowa",
+        "druga połowa",
+        "koniec"
+      ]
+    }
+  }
+}

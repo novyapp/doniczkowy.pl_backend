@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_rozsada_rozsadas",
+  "info": {
+    "displayName": "rozsada",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "kiedy": {
+      "type": "enumeration",
+      "enum": [
+        "uprawa bez rozsady",
+        "styczeń",
+        "luty",
+        "marzec",
+        "kwiecień",
+        "maj",
+        "czerwiec",
+        "lipiec",
+        "sierpień",
+        "wrzesień",
+        "październik",
+        "listopad",
+        "grudzień"
+      ]
+    },
+    "prefix": {
+      "type": "enumeration",
+      "enum": [
+        "początek",
+        "pierwsza połowa",
+        "druga połowa",
+        "koniec"
+      ]
+    }
+  }
+}

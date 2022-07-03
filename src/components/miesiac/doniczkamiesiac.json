@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_miesiac_doniczkamiesiacs",
+  "info": {
+    "displayName": "doniczkamiesiac"
+  },
+  "options": {},
+  "attributes": {
+    "done": {
+      "type": "enumeration",
+      "enum": [
+        "styczeń",
+        "luty",
+        "marzec",
+        "kwiecień",
+        "maj",
+        "czerwiec",
+        "lipiec",
+        "sierpień",
+        "wrzesień",
+        "październik",
+        "listopad",
+        "grudzień"
+      ]
+    }
+  }
+}

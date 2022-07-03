@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "warzywas",
+  "info": {
+    "singularName": "warzywa",
+    "pluralName": "warzywas",
+    "displayName": "warzywa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "temp": {
+      "type": "string"
+    },
+    "rozsada": {
+      "displayName": "rozsada",
+      "type": "component",
+      "repeatable": true,
+      "component": "rozsada.rozsada"
+    },
+    "doniczka": {
+      "displayName": "doniczka",
+      "type": "component",
+      "repeatable": true,
+      "component": "doniczka.doniczka"
+    },
+    "balkon": {
+      "displayName": "balkon",
+      "type": "component",
+      "repeatable": true,
+      "component": "balkon.balkon"
+    }
+  }
+}
