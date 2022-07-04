@@ -1,13 +1,15 @@
 {
   "collectionName": "components_balkon_balkons",
   "info": {
-    "displayName": "balkon"
+    "displayName": "balkon",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "kiedy": {
       "type": "enumeration",
       "enum": [
+        "uprawa bez rozsady",
         "styczeń",
         "luty",
         "marzec",

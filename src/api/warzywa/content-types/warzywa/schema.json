@@ -20,8 +20,14 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos",
+        "audios"
       ]
+    },
+    "temp": {
+      "type": "string"
     },
     "rozsada": {
       "displayName": "rozsada",
