@@ -26,9 +26,6 @@
         "audios"
       ]
     },
-    "temp": {
-      "type": "string"
-    },
     "rozsada": {
       "displayName": "rozsada",
       "type": "component",
